@@ -4,11 +4,11 @@ class ApiService extends Component {
     // logoUrl = `https://johnfrancis.ca/en/wp-content/uploads/2017/02/YourLogo.png`
 
     apiUrl(url) {
-        return url = 'https://lms.dinjaninfotech.com/api'
+        return url = 'https://example.com/api'
     }
 
     apiImageShow() {
-        return 'https://lms.dinjaninfotech.com/api/files'
+        return 'https://example.com/api'
     }
 
     async apiCall(endpoint, auth = "", body = null, method = 'GET') {
